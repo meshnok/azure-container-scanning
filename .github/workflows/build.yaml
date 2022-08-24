@@ -5,7 +5,7 @@ name: container-cicd-workflow
 on: push
 
 env:
-  CONTAINER_REGISTRY: sbacrdemo.azurecr.io 
+  CONTAINER_REGISTRY: cnrtest.azurecr.io 
   IMAGE_NAME: ci-scanning-demo
   DOCKERFILE: Dockerfile_vulnerable
 
